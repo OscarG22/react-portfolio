@@ -27,20 +27,8 @@ function NavTabs() {
                     Blog
         </Link>
             </li>
-            <li className="nav-item">
-                <Link
-                    to="/contact"
-                    className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
-                    Contact
-        </Link>
-            </li>
-            <li className="nav-item">
-                <Link
-                    to="/contact/learn"
-                    className={location.pathname === "/contact/learn" ? "nav-link active" : "nav-link"}>
-                    Learn
-        </Link>
-            </li>
+            
+            
         </ul>
     );
 }
